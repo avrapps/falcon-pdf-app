@@ -19,7 +19,7 @@ Available on **Android, iOS, Web, Windows, macOS, Linux, Chromebooks, and TVs**.
 
 
 ###  iOS (iPhone & iPad)
-<a href="https://apps.apple.com/gh/app/falcon-pdf-editor-tools/id6760542830">
+<a href="https://apps.apple.com/app/falcon-pdf-editor-tools/id6760542830">
   <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" width="140"/>
 </a>
 
@@ -34,7 +34,7 @@ Available on **Android, iOS, Web, Windows, macOS, Linux, Chromebooks, and TVs**.
 
 
 ### 💻 macOS 
-<a href="https://apps.apple.com/gh/app/falcon-pdf-editor-tools/id6760542830">
+<a href="https://apps.apple.com/app/falcon-pdf-editor-tools/id6760542830">
   <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" width="140"/>
 </a>
 
