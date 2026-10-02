@@ -16,15 +16,12 @@ Falcon PDF is available on all major platforms. The Direct download links always
 
 | Platform | App Store | Direct download |
 | --- | --- | --- |
-| **Android** (Mobiles, Tablets, Chromebooks & TVs) | [![Google Play](https://img.shields.io/badge/Google_Play-414141?logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.avrapps.pdfviewer) | — |
+| **Android** (Mobiles, Tablets, Chromebooks & TVs) | [![Google Play](https://img.shields.io/badge/Google_Play-414141?logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.avrapps.pdfviewer) | [![.apk](https://img.shields.io/badge/.apk-3DDC84?logo=android&logoColor=white)](https://github.com/avrapps/falcon-pdf-app/releases/latest) |
 | **iOS** (iPhone & iPad) | [![App Store](https://img.shields.io/badge/App_Store-0D96F6?logo=apple&logoColor=white)](https://apps.apple.com/app/falcon-pdf-editor-tools/id6760542830) | — |
-| **Windows** | [![Microsoft Store](https://img.shields.io/badge/Microsoft_Store-0078D4?logo=microsoft&logoColor=white)](https://apps.microsoft.com/detail/9n72j6v7l6rk) | [![.msi](https://img.shields.io/badge/.msi-0078D4?logo=windows&logoColor=white)](https://github.com/avrapps/falcon-pdf-app/releases/latest) [![.exe](https://img.shields.io/badge/.exe_portable-0078D4?logo=windows&logoColor=white)](https://github.com/avrapps/falcon-pdf-app/releases/latest) |
+| **Windows** | [![Microsoft Store](https://img.shields.io/badge/Microsoft_Store-0078D4?logo=microsoft&logoColor=white)](https://apps.microsoft.com/detail/9p18j5g85clt) | [![.msi](https://img.shields.io/badge/.msi-0078D4?logo=windows&logoColor=white)](https://github.com/avrapps/falcon-pdf-app/releases/latest) [![.exe](https://img.shields.io/badge/.exe_portable-0078D4?logo=windows&logoColor=white)](https://github.com/avrapps/falcon-pdf-app/releases/latest) |
 | **macOS** | [![Mac App Store](https://img.shields.io/badge/Mac_App_Store-000000?logo=apple&logoColor=white)](https://apps.apple.com/app/falcon-pdf-editor-tools/id6760542830) | [![.dmg](https://img.shields.io/badge/.dmg-000000?logo=apple&logoColor=white)](https://github.com/avrapps/falcon-pdf-app/releases/latest) |
-| **Linux** | [![Snap Store](https://img.shields.io/badge/Snap_Store-82BEA0?logo=snapcraft&logoColor=white)](https://snapcraft.io/falcon-pdf) | [![.deb](https://img.shields.io/badge/.deb-A81D33?logo=debian&logoColor=white)](https://github.com/avrapps/falcon-pdf-app/releases/latest) [![.rpm](https://img.shields.io/badge/.rpm-EE0000?logo=redhat&logoColor=white)](https://github.com/avrapps/falcon-pdf-app/releases/latest) [![AppImage](https://img.shields.io/badge/AppImage-FCC624?logo=linux&logoColor=black)](https://github.com/avrapps/falcon-pdf-app/releases/latest) [![Pacman](https://img.shields.io/badge/Pacman-1793D1?logo=archlinux&logoColor=white)](https://github.com/avrapps/falcon-pdf-app/releases/latest) |
-
-### 🌐 Web App
-👉 Open directly in browser:  
-[https://falconpdf.com/?mode=App](https://falconpdf.com/?mode=App)
+| **Linux** | [![Snap Store](https://img.shields.io/badge/Snap_Store-82BEA0?logo=snapcraft&logoColor=white)](https://snapcraft.io/falcon-pdf) [![FlatPark](https://img.shields.io/badge/Flatpak-FlatPark-4A90D9?logo=flatpak&logoColor=white)](https://flatpark.org/apps/com.falconpdf.app) | [![.deb](https://img.shields.io/badge/.deb-A81D33?logo=debian&logoColor=white)](https://github.com/avrapps/falcon-pdf-app/releases/latest) [![.rpm](https://img.shields.io/badge/.rpm-EE0000?logo=redhat&logoColor=white)](https://github.com/avrapps/falcon-pdf-app/releases/latest) [![AppImage](https://img.shields.io/badge/AppImage-FCC624?logo=linux&logoColor=black)](https://github.com/avrapps/falcon-pdf-app/releases/latest) [![Pacman](https://img.shields.io/badge/Pacman-1793D1?logo=archlinux&logoColor=white)](https://github.com/avrapps/falcon-pdf-app/releases/latest) |
+| **Web** (any browser) | [![Web App](https://img.shields.io/badge/Web_App-Open_in_browser-4285F4?logo=googlechrome&logoColor=white)](https://app.falconpdf.com/) | — |
 
 ### 💻 Command-line installation
 
@@ -33,6 +30,12 @@ Prefer the terminal? On **Windows** use `winget` and on **macOS** use Homebrew �
 **Linux — Snap (all distros)**
 ```bash
 sudo snap install falcon-pdf
+```
+
+**Linux — Flatpak via [FlatPark](https://flatpark.org/apps/com.falconpdf.app) (all distros)**
+```bash
+flatpak remote-add --if-not-exists flatpark https://dl.flatpark.org/flatpark.flatpakrepo
+flatpak install flatpark com.falconpdf.app
 ```
 
 **Linux — Debian / Ubuntu (.deb)**
@@ -65,15 +68,15 @@ curl -sL "$(curl -sL https://api.github.com/repos/avrapps/falcon-pdf-app/release
 
 **Windows — winget**
 ```powershell
-winget install --id 9N72J6V7L6RK --source msstore
+winget install --id 9P18J5G85CLT --source msstore
 ```
 
 **macOS — Homebrew (cask)**
 ```bash
-brew install --cask falcon-pdf
+brew tap avrapps/tap && brew install --cask falcon-pdf
 ```
 
-> Tip: You can also install from the app stores or package managers — see the [Download](#️-download) table above for Google Play, App Store, Microsoft Store, and Snap Store links.
+> Tip: You can also install from the app stores or package managers — see the [Download](#️-download) table above for Google Play, App Store, Microsoft Store, Snap Store, and FlatPark (Flatpak) links.
 
 
 
@@ -122,12 +125,14 @@ brew install --cask falcon-pdf
 - ✖️ X (Twitter): [https://x.com/falcon_pdf](https://x.com/falcon_pdf)
 - 📘 Facebook: [https://www.facebook.com/profile.php?id=61584270131681](https://www.facebook.com/profile.php?id=61584270131681)
 - 💬 WhatsApp Channel: [https://whatsapp.com/channel/0029Va4rWa2JENy9pTvxGL24](https://whatsapp.com/channel/0029Va4rWa2JENy9pTvxGL24)
+- 🎮 Discord: [https://discord.gg/YMedDK2c3](https://discord.gg/YMedDK2c3)
+- ✈️ Telegram: [https://t.me/falconpdf](https://t.me/falconpdf)
 - 💼 LinkedIn: [https://www.linkedin.com/company/falcon-pdf/](https://www.linkedin.com/company/falcon-pdf/)
 - ▶️ YouTube: [https://www.youtube.com/@FalconPDF](https://www.youtube.com/@FalconPDF)
-- 🧵 Threads: [https://www.threads.com/@falcon.pdf](https://www.threads.com/@falcon.pdf)
-- 📸 Instagram: [https://www.instagram.com/falcon.pdf/](https://www.instagram.com/falcon.pdf/)  
+- 🧵 Threads: [https://www.threads.com/@falcon_pdf](https://www.threads.com/@falcon_pdf)
+- 📸 Instagram: [https://www.instagram.com/falcon_pdf/](https://www.instagram.com/falcon_pdf/)  
 
 
 ## 📜 License
 
-© 2025 Falcon PDF. All rights reserved by AVR Software Solutions Private Limited.
+© 2025 Falcon PDF. All rights reserved by ANRMS Private Limited.
